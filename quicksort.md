@@ -1,4 +1,4 @@
-1.	static int partition(int a[], int left, int right) {
+	static int partition(int a[], int left, int right) {
 
         int l_spot = left + 1;
         int r_spot = right;
