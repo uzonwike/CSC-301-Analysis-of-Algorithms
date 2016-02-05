@@ -1,3 +1,8 @@
+***Algorithms and Runtimes***
+
+Find examples of algorithms with the following time complexity. Places to look include your textbook and the Internet. Create a page in your public portfolio where you list your algorithms by NAME, SOURCE, Explanation. Do NOT include the algorithm itself, just include what it is supposed to do. Prizes for finding algorithms that are truly out there.
+
+
 | **Time Complexity** | **Name** | **Source** | **Explanation** |
 | --- | --- | --- | --- |
 | O(n) | Getting the sum of the elements in an array | Past classes | To find the sum of all elements in an array, each element is visited once in order, and added to a total value. Hence, it is linear |
