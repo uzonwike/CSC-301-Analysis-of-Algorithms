@@ -6,4 +6,3 @@
 | O(nc)   | Insertion sort- [O(n2)] | http://faculty.simpson.edu/lydia.sinapova/www/cmsc250/LN250\_Weiss/L11-InsSort.htm | Assuming, we have an unsorted array, to insert the ith element, we need at most (i-1) comparisons and (i-1) movements. When the insertion times for all the elements are summed, we get n2 |
 | O(cn) | Generating all subsets of a set of n elements - [O(2n)] | http://stackoverflow.com/questions/5508447/2n-complexity-algorithm | The number of subsets of a set of n elements is 2n |
 | O(n!) | Generating all permutations of a list/array | [http://stackoverflow.com/questions/16555978/example-of-a-factorial-time-algorithm-o-n](http://stackoverflow.com/questions/16555978/example-of-a-factorial-time-algorithm-o-n) | The number of permutation of a list is n! |
-
