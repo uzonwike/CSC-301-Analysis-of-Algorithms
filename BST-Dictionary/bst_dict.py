@@ -8,6 +8,23 @@ class BSTnode:
         self.left = None
         self.right = None
 
+    def add_word(self, key):
+        if self.key is None:
+            self.key = key
+            self.value = 1
+        elif self.key.upper() == key.upper():
+            self.value += 1
+        elif self.key.upper() < key.upper():
+            if self.right is not None:
+                self.right.add_word(key)
+            else:
+                self.right = BSTnode(self, key, 1)
+        else:
+            if self.left is not None:
+                self.left.add_word(key)
+            else:
+                self.left = BSTnode(self, key, 1)
+
     def insertHelper(self, newNode):
         if self is None:
             self = newNode
@@ -104,3 +121,13 @@ class BSTnode:
             return self
         else:
             return self.right.maximum()
+
+    def print_tree(self):
+        """
+        Print tree content inorder
+        """
+        if self.left:
+            self.left.print_tree()
+        print [self.key, self.value]
+        if self.right:
+            self.right.print_tree()
