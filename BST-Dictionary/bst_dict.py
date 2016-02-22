@@ -104,13 +104,3 @@ class BSTnode:
             return self
         else:
             return self.right.maximum()
-
-    def print_tree(self):
-        """
-        Print tree content inorder
-        """
-        if self.left:
-            self.left.print_tree()
-        print [self.key, self.value]
-        if self.right:
-            self.right.print_tree()
